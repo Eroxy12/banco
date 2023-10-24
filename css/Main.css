@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+}
+
+
+header{
+    padding: 10px 40px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Imagen {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+nav{
+    padding-left: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: row ;
+}
+
+nav > a {
+    color: black;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+#btn-registrarse{
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 30px;
+    background-color: beige;
+    padding: 20px;
+}
+section{
+    flex: 70%;
+
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+#footer{
+    background-image: url(..//Img/BANNER-INFERIO-1280-X-200-OPCION1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.Info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.Info a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.Info span{
+    transition: all 0.5s;
+    padding-left: 5px;
+}
+
+.Info span:hover{
+    color: #1E1E1C;
+}
+
+.Redes-Sociales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.Redes-Sociales span{
+    width: 100%;
+    text-align: center;
+}
+
+.Redes-Sociales span:hover{
+    color: #1E1E1C;
+}
+
+@media  screen and (max-width:700px){
+    nav, .row{
+        flex-direction: column;
+        padding: 0%;
+    }
+}
