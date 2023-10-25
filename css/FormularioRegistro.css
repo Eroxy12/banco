@@ -19,10 +19,6 @@
     margin-bottom: 20px;
 }
 
-.Form-Register > p > a{
-
-}
-
 .controls {
      width: 100%;
      background-color: #24303c;
@@ -38,7 +34,7 @@
 }
 
 .Form-Register  a:hover {
-    color: aquamarine;
+    color: rgb(61, 255, 47);
     text-decoration: underline;
 }
 
