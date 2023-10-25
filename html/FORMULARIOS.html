@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet"> <!-- letras y tipografia  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- boxicons -->
+    <link rel="stylesheet" href="..//css/FORMULARIOS.css">
+    <title>Formulario de Registro e Inicio de sesion</title>
+</head>
+<body>
+    <div class="container-form register">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Por unirte a nuestra comunidad CJ BANKpor favor inicia sesion con tus  datos</p>
+                <input type="button" value="Iniciar Sesion" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i> <!-- iconos de plataformas de iniciar sesion -->
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>O usa tu Email para registrarte</p>
+                <form class="form">
+                    <label >
+                        <i class='bx bx-user' ></i> <!-- icono de usuario -->
+                        <input type="text" placeholder="Nombre completo" id="nombre">
+                    </label>
+                    <label >
+                        <i class='bx bx-envelope' ></i> <!-- icono de email -->
+                        <input type="email" placeholder="Correo Electronico" id="correo-registro">
+                    </label>
+                    <label >
+                        <i class='bx bx-lock-alt' ></i> <!-- icono de contraseña -->
+                        <input type="password" placeholder="Contraseña" id="contraseña-registro">
+                    </label>
+                    <input type="submit" value="Registrarse" onclick="registrarUsuario()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- LUEGO DE DAR CLICK EN INICIAR SESION -->
+
+    <div class="container-form login hide">
+        <div class="information">
+            <div class="info-childs">
+                <h2>¡¡BIENVENIDO NUEVAMENTE!!</h2>
+                <p>Por unirte a nuestra comunidad CJ BANK por favor inicia sesion con tus  datos</p>
+                <input type="button" value="Registrarse" id="sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Sesion</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i> <!-- iconos de plataformas de iniciar sesion -->
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>O iniciar sesion con una cuenta</p>
+                <form class="form">
+                    <label >
+                        <i class='bx bx-envelope' ></i> <!-- icono de email -->
+                        <input type="email" placeholder="Correo Electronico" id="correo-login">
+                    </label>
+                    <label >
+                        <i class='bx bx-lock-alt' ></i> <!-- icono de contraseña -->
+                        <input type="password" placeholder="Contraseña" id="contraseña-login">
+                    </label>
+                    <input type="submit" value="Iniciar Sesion" onclick="iniciarSesion()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="..//js/FORMULARIO.js"></script>
+</body>
+</html>
