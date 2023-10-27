@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/consultasYmovimientos.css">
+    <title>Consultas y movimientos</title>
+</head>
+<body>
+     <div id="container">
+        <div id="zonaDeTrabajo">
+
+            <div id="bienvenido">
+                <div id="textBienvenido">
+                    <h1>Bienvenido</h1>
+                </div>
+            </div>
+
+            <div class="zonaDeTrabajoCuadro">
+                <div class="cuadro1">
+
+                    <input type="button" id="botonClick1" value="Retirar" onclick="botonRetirar()" >                    
+                </div>
+
+                <div class="cuadro2"> 
+
+                    <input type="button" id="botonClick2" value="Constular saldo" onclick="botonConsularSaldo()" >                   
+                </div>
+
+            </div>
+
+            <div class="zonaDeTrabajoCuadro">
+
+                <div class="cuadro1">
+
+                    <input type="button" id="botonClick3" value="Consignar" onclick="botonConsignar()" >
+                </div>
+
+                <div class="cuadro2">
+
+                    <input type="button" id="botonClick4" value="Cambiar clave" onclick="botonCambiarClave()" >
+                </div>
+            </div>
+
+            <div class="zonaDeTrabajoCuadro">
+                
+                <div class="cuadro1">
+                    <input type="button" id="botonClick5" value="Consultar movimientos" onclick="botonConsultarMovimiento ()" >
+                </div>
+                <div class="cuadro2">
+                    <input type="button" id="botonClick6" value="Salir" onclick="botonSalir ()" >
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+     <script src="/js/FORMULARIO.js"></script>
+</body>
+</html>
