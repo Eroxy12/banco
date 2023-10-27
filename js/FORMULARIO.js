@@ -57,3 +57,27 @@ class Usuario {
     }
   }
   
+
+  function botonRetirar (){
+    window.location.href="retirar.html"
+  }
+
+  function botonConsularSaldo (){
+    window.location.href=""
+  }
+  
+  function botonConsignar (){
+    window.location.href=""
+  }
+
+  function botonCambiarClave (){
+    window.location.href = "formularioRegistro.html"
+  }
+  
+  function botonConsultarMovimiento (){
+    window.location.href=""
+  }
+
+  function botonSalir (){
+    window.location.href = "login.html"
+  }
