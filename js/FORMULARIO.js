@@ -56,14 +56,13 @@ class Usuario {
       console.log("Correo o contraseña incorrectos. Por favor, inténtalo de nuevo.");
     }
   }
-  
 
   function botonRetirar (){
     window.location.href="retirar.html"
   }
 
   function botonConsularSaldo (){
-    window.location.href=""
+    window.location.href="consultarSaldo.html"
   }
   
   function botonConsignar (){
@@ -71,7 +70,7 @@ class Usuario {
   }
 
   function botonCambiarClave (){
-    window.location.href = "formularioRegistro.html"
+    window.location.href = "FORMULARIOS.html"
   }
   
   function botonConsultarMovimiento (){
@@ -81,3 +80,9 @@ class Usuario {
   function botonSalir (){
     window.location.href = "login.html"
   }
+
+
+
+
+
+ 
