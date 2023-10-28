@@ -121,5 +121,5 @@ function botonRetirar() {
   }
 
   function botonSalir (){
-    window.location.href = "login.html"
+    window.location.href = "FORMULARIOS.html"
   }
