@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(193, 217, 205);
+    background: linear-gradient(blue, pink);
 }
 
 #zonaDeTrabajo{
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 227, 34);
+    background-color: #c7eef3;
 }
 
 #textBienvenido{
