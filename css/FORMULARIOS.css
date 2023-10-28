@@ -139,7 +139,7 @@ body{
     color: #a7a7a7;
 }
 
-.form input[type="submit"]{
+.form input[type="button"]{
     background-color: #9191bd;
     color: #fff;
     border-radius: 20px;
@@ -155,7 +155,7 @@ body{
     transform: translateY(-300%); /*es para que se desplace hacia arriba y se oculte arriba, y cuando le demos al boton baje o suba, (se intercambia de posicion) gracias a javaScript*/
 }
 
-.form input[type="submit"]:hover{
+.form input[type="button"]:hover{
     background-color: #7a7a9a;
 }
 
