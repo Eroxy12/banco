@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(193, 217, 205);
+    background: linear-gradient(blue, pink);
 }
 
 #zonaDeTrabajo{
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 227, 34);
+    background-color:  #c7eef3;
 }
 
 #textBienvenido{
@@ -37,3 +37,33 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#retirar{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#dos{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(186, 196, 196);
+}
+
+#cuadroRetirar{
+    width: 100;
+    height: 20%;
+    
+}
+
+
+
+
+
