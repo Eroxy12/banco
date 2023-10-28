@@ -34,11 +34,11 @@ function registrarUsuario() {
   const usuarioExistente = usuarios.find((usuario) => usuario.correo === correo);
 
   if (usuarioExistente) {
-    console.log("El correo ya está en uso. Por favor, elige otro.");
+    alert("El correo ya está en uso. Por favor, elige otro.");
   } else {
     const nuevoUsuario = new Usuario(nombre, correo, contrasena);
     usuarios.push(nuevoUsuario);
-    console.log("Registro exitoso. Ahora puedes iniciar sesión.");
+    alert("Registro exitoso. Ahora puedes iniciar sesión.");
   }
 }
 
