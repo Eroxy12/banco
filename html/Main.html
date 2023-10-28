@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CJ Bank</title>
-
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/css/consultasYmovimientos.css">
     <link rel="stylesheet" href="..//css/Main.css">
 </head>
 <body>
@@ -15,19 +14,62 @@
     </header>
 
     <nav>
-        <a href="..//html/Maqueta.html">Home  </a>
-        <a href="">Vision  </a>
+        <a href="..//html/Main.html">Home  </a>
+        <a href="..//html/TerminosyCondiciones.html">Terminos y Condiciones  </a>
         <a href="">Mision  </a>
-        <a href="..//html/login.html" id="btn-registrarse">Loggin</a>
+        <a href="..//html/FORMULARIOS.html" id="btn-registrarse">Loggin</a>
     </nav>
 
     <div class="row">
         <aside>
-            <h2>aside</h2>
+            <div id="container">
+                <div id="zonaDeTrabajo">
+        
+                    <div id="bienvenido">
+                        <div id="textBienvenido">
+                            <h1>Bienvenido</h1>
+                        </div>
+                    </div>
+        
+                    <div class="zonaDeTrabajoCuadro">
+                        <div class="cuadro1">
+        
+                            <input type="button" id="botonClick1" value="Retirar" onclick="botonRetirar()" >                    
+                        </div>
+        
+                        <div class="cuadro2"> 
+        
+                            <input type="button" id="botonClick2" value="Constular saldo" onclick="botonConsularSaldo()" >                   
+                        </div>
+        
+                    </div>
+        
+                    <div class="zonaDeTrabajoCuadro">
+        
+                        <div class="cuadro1">
+        
+                            <input type="button" id="botonClick3" value="Consignar" onclick="botonConsignar()" >
+                        </div>
+        
+                        <div class="cuadro2">
+        
+                            <input type="button" id="botonClick4" value="Cambiar clave" onclick="botonCambiarClave()" >
+                        </div>
+                    </div>
+        
+                    <div class="zonaDeTrabajoCuadro">
+                        
+                        <div class="cuadro1">
+                            <input type="button" id="botonClick5" value="Consultar movimientos" onclick="botonConsultarMovimiento ()" >
+                        </div>
+                        <div class="cuadro2">
+                            <input type="button" id="botonClick6" value="Salir" onclick="botonSalir ()" >
+                        </div>
+                    </div>
+        
+                </div>
+             </div>
         </aside>
-        <section>
-            <h2>section</h2>
-        </section>
     </div>
 
     <footer id="footer">
@@ -55,6 +97,8 @@
             </figure>
         </section>
     </footer>
+
+    <script src="/js/FORMULARIO.js"></script>
 
 </body>
 </html>
