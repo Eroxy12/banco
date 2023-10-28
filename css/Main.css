@@ -15,7 +15,6 @@ header{
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(174, 251, 251);
 }
 
 #Imagen {
