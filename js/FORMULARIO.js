@@ -49,19 +49,41 @@ function iniciarSesion() {
   const usuario = usuarios.find((usuario) => usuario.correo === correo);
 
   if (usuario && usuario.contraseña === contrasena) {
-    console.log("Inicio de sesión exitoso. Bienvenido, " + usuario.nombre);
+    alert("Inicio de sesión exitoso. Bienvenido, " + usuario.nombre);
+    // Redirigir a la página principal después del inicio de sesión exitoso.
+    window.location.href = "Main.html";
+
     intentosFallidos = 0; // Restablecer el contador de intentos fallidos en caso de inicio de sesión exitoso.
-    //Hacer que el boton de inciar sesion nos lleve a la pagina principal
-    document.getElementById("botonIniciarSesion").onclick= function(){
-    window.location.href="..//html/Main.html";
-}
   } else {
     intentosFallidos++;
-    console.log("Correo o contraseña incorrectos. Por favor, inténtalo de nuevo.");
+    alert("Correo o contraseña incorrectos. Por favor, inténtalo de nuevo.");
 
     if (intentosFallidos >= maxIntentos) {
-      console.log("La cuenta ha sido bloqueada.");
-      // Puedes agregar aquí código adicional para bloquear la cuenta, como deshabilitar los campos de inicio de sesión.
+      alert("La cuenta ha sido bloqueada.");
     }
   }
+}
+
+function botonRetirar() {
+  window.location.href = "retirar.html";
+}
+
+function botonConsularSaldo() {
+  window.location.href = "consultarSaldo.html";
+}
+
+function botonConsignar() {
+  window.location.href = "consignar.html";
+}
+
+function botonCambiarClave() {
+  window.location.href = "FORMULARIOS.html";
+}
+
+function botonConsultarMovimiento() {
+  window.location.href = "consultarMovimiento.html";
+}
+
+function botonSalir() {
+  window.location.href = "FORMULARIOS.html";
 }
