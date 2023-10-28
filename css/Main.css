@@ -27,7 +27,8 @@ nav{
     padding-left: 350px;
     text-align: center;
     display: flex;
-    flex-direction: row ;
+    justify-content: left;
+    align-items: center;
 }
 
 nav > a {
@@ -36,7 +37,7 @@ nav > a {
     text-decoration: none;
 }
 
-#btn-registrarse{
+#home{
     background-color: lightgreen;
     border-radius: 5px;
 }
