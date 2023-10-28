@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(rgba(0, 0, 255, 0.527), rgba(83, 3, 129, 0.705));
 }
 
 #zonaDeTrabajo{
