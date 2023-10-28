@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +12,27 @@
             <div id="bienvenido">
                 <div id="textBienvenido">
                     <h1>Retirar</h1>
+                </div>                
+            </div>
+
+            <div id="retirar">
+                <div id="dos">
+                    <div id="cuadroRetirar">
+                        <h1>Retiro de Fondos</h1>
+    
+                        <p id="saldo-actual">Saldo: $478,546</p>
+                    
+                        <label for="monto-retiro">Monto a Retirar:</label>
+                        <input type="number" id="monto-retiro" required>
+                    
+                        <button onclick="realizarRetiro()">Retirar</button>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="/js/retirar.js"></script>
 </body>
 </html>
