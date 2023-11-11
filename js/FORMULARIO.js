@@ -87,3 +87,14 @@ function botonConsultarMovimiento() {
 function botonSalir() {
   window.location.href = "FORMULARIOS.html";
 }
+
+
+let saldo = 1000;
+
+function actualizarSaldo() {
+  document.getElementById('saldo').innerText = `Saldo actual: $${saldo}`;
+}
+
+function consultarSaldo() {
+  actualizarSaldo();
+}
