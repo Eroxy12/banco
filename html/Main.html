@@ -32,17 +32,22 @@
                         <div id="textBienvenido">
                             <h1>Bienvenido</h1>
                         </div>
+
+                        <div id="cantidad">
+                            <label for="amount">Ingrese la cantidad:</label>
+                            <input type="number" id="amount" placeholder="Ingrese la cantidad">
+                        </div>
                     </div>
         
                     <div class="zonaDeTrabajoCuadro">
                         <div class="cuadro1">
         
-                            <input type="button" id="botonClick1" value="Retirar" onclick="botonRetirar()" >                    
+                            <input type="button" id="botonClick1" value="Retirar" onclick="withdraw()" >                    
                         </div>
         
                         <div class="cuadro2"> 
         
-                            <input type="button" id="botonClick2" value="Constular saldo" onclick="botonConsularSaldo()" >                   
+                            <input type="button" id="botonClick2" value="Constular saldo" onclick="checkBalance()" >                   
                         </div>
         
                     </div>
@@ -51,7 +56,7 @@
         
                         <div class="cuadro1">
         
-                            <input type="button" id="botonClick3" value="Consignar" onclick="botonConsignar()" >
+                            <input type="button" id="botonClick3" value="Consignar" onclick="deposit()" >
                         </div>
         
                         <div class="cuadro2">
@@ -63,7 +68,7 @@
                     <div class="zonaDeTrabajoCuadro">
                         
                         <div class="cuadro1">
-                            <input type="button" id="botonClick5" value="Consultar movimientos" onclick="botonConsultarMovimiento ()" >
+                            <input type="button" id="botonClick5" value="Consultar movimientos" onclick="showTransactions ()" >
                         </div>
                         <div class="cuadro2">
                             <input type="button" id="botonClick6" value="Salir" onclick="botonSalir ()" >
@@ -101,7 +106,7 @@
         </section>
     </footer>
 
-    <script src="/js/FORMULARIO.js"></script>
+    <script src="/js/todo.js"></script>
 
 </body>
 </html>
